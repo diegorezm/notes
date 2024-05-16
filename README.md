@@ -1,2 +1,2 @@
 # Notes
-Random notes im taking
+Random notes i'm taking

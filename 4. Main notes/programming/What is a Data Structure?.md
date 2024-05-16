@@ -1,7 +1,9 @@
 ---
 title: What is a Data Structure?
-date: 15-05-2024
-tags: data_structure incomplete
+date: 2024-05-2024
+tags:
+  - data_structure
+  - incomplete
 index: "[[data structures]]"
 ---
 

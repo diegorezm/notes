@@ -1,5 +1,7 @@
 {
   "accentColor": "",
   "baseFontSize": 18,
-  "interfaceFontFamily": "Roboto"
+  "interfaceFontFamily": "Roboto",
+  "cssTheme": "Catppuccin",
+  "textFontFamily": "Inter"
 }
