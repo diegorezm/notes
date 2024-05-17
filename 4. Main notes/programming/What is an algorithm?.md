@@ -10,3 +10,4 @@ index: "[[algorithm]]"
 # What is an algorithm?
 An algorithm can be described as a **finite sequence of instructions** written in a clear and unambiguous language with the purpose of handling a specific task.
 # References
+- [[recursive]]

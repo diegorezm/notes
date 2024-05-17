@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "4. Main notes/programming/What is an algorithm?.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#algorithm  ",
+                "query": "tag:incomplete",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -147,19 +146,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4301c7e3d2bb8140",
+  "active": "004db580984b7e60",
   "lastOpenFiles": [
     "4. Main notes/programming/What is a Data Structure?.md",
-    "README.md",
     "4. Main notes/programming/What is an algorithm?.md",
+    "4. Main notes/programming/stack and queue.md",
+    "4. Main notes/programming/recursive.md",
+    "4. Main notes/programming/lists.md",
+    "2. Indexes/data structures.md",
+    "README.md",
     "3. Templates/Full note.md",
     "4. Main notes/teste _te.md",
-    "4. Main notes/programming/lists.md",
-    "4. Main notes/programming/stack and queue.md",
     "2. Indexes/algorithm.md",
     "4. Main notes/programming/linked list.md",
     "3. Templates/Index template.md",
-    "2. Indexes/data structures.md",
     "4. Main notes/programming",
     "Untitled.canvas",
     "2. Indexes/programming.md",

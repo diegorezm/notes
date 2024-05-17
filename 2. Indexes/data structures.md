@@ -1,2 +1,3 @@
-# Array
-# Node
+- [[lists]]
+- [[stack and queue]]
+- [[What is a Data Structure?]]

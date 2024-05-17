@@ -1,7 +1,9 @@
 ---
 title: lists
 date: 15-05-2024
-tags: data_structure completed 
+tags:
+  - data_structure
+  - incomplete
 index: "[[data structures]]"
 ---
 
@@ -13,3 +15,5 @@ Its also a linear data structure, which means that the items are stored in a chr
 Linked lists might seem similar to arrays at first glance, but their internal data storage is fundamentally different. Linked lists are not inherently linear in memory. Instead, they consist of individual nodes, each containing data and a reference (often a memory address) to the next node in the sequence. This means a node only knows about its own data and the next element in the chain, not the entire list's structure.
 
 # References
+- [[stack and queue]]
+- [[What is a Data Structure?]]

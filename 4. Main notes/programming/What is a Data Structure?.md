@@ -19,3 +19,5 @@ Data structures can have many characteristics, such as:
 - **Static data structures** have a **predefined size** while **Dynamic data structures** **grow or shrink in size** as needed
 
 # References
+- [[lists]]
+- [[stack and queue]]
