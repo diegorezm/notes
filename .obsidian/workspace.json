@@ -13,13 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4. Main notes/programming/What is an algorithm?.md",
+                "file": "4. Main notes/programming/recursive.md",
                 "mode": "preview",
                 "source": false
               }
             }
+          },
+          {
+            "id": "5c33a2dc977452da",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4. Main notes/programming/What is an algorithm?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4. Main notes/programming/What is an algorithm?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,17 +131,14 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "4. Main notes/programming/What is an algorithm?.md"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,18 +150,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "004db580984b7e60",
+  "active": "5c33a2dc977452da",
   "lastOpenFiles": [
-    "4. Main notes/programming/What is a Data Structure?.md",
-    "4. Main notes/programming/What is an algorithm?.md",
-    "4. Main notes/programming/stack and queue.md",
-    "4. Main notes/programming/recursive.md",
-    "4. Main notes/programming/lists.md",
+    "2. Indexes/algorithm.md",
     "2. Indexes/data structures.md",
+    "4. Main notes/programming/recursive.md",
+    "4. Main notes/programming/What is an algorithm?.md",
+    "4. Main notes/programming/What is a Data Structure?.md",
+    "4. Main notes/programming/stack and queue.md",
+    "4. Main notes/programming/lists.md",
     "README.md",
     "3. Templates/Full note.md",
     "4. Main notes/teste _te.md",
-    "2. Indexes/algorithm.md",
     "4. Main notes/programming/linked list.md",
     "3. Templates/Index template.md",
     "4. Main notes/programming",
