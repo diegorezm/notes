@@ -23,8 +23,12 @@
             "id": "5c33a2dc977452da",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "4. Main notes/Software engineering Ian Sommerville 9th edition.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -94,7 +98,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": false,
+                "file": "4. Main notes/Software engineering Ian Sommerville 9th edition.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -110,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "4. Main notes/Software engineering Ian Sommerville 9th edition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "4. Main notes/Software engineering Ian Sommerville 9th edition.md"
+              }
             }
           }
         ]
@@ -152,13 +160,17 @@
   },
   "active": "5c33a2dc977452da",
   "lastOpenFiles": [
-    "2. Indexes/algorithm.md",
-    "2. Indexes/data structures.md",
-    "4. Main notes/programming/recursive.md",
+    "4. Main notes/Software engineering Ian Sommerville 9th edition.md",
+    "5. Assets/tabela_doc_requisitos.png",
+    "5. Assets",
+    "3. Templates/software engineering.md",
     "4. Main notes/programming/What is an algorithm?.md",
-    "4. Main notes/programming/What is a Data Structure?.md",
     "4. Main notes/programming/stack and queue.md",
+    "4. Main notes/programming/recursive.md",
     "4. Main notes/programming/lists.md",
+    "2. Indexes/data structures.md",
+    "2. Indexes/algorithm.md",
+    "4. Main notes/programming/What is a Data Structure?.md",
     "README.md",
     "3. Templates/Full note.md",
     "4. Main notes/teste _te.md",
