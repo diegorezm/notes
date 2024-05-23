@@ -212,7 +212,7 @@ bilhete é emitido.**
 
 - Outros indivíduos ou grupos que podem ter interesse no sistema, como representantes de marketing, suporte técnico ou especialistas em domínio.
 - Sua participação pode fornecer diferentes perspectivas e identificar requisitos adicionais que foram esquecidos.
-## 4.9 Quando mudanças emergenciais precisam ser feitas em sistemas, o software do sistema pode precisar ser modificado antes de serem aprovadas as mudanças nos requisitos. Sugira um modelo de um processo para fazer essas modificações de modo a garantir que o documento de requisitos e implementação do sistema não se tornem inconsistentes.
+### 4.9 Quando mudanças emergenciais precisam ser feitas em sistemas, o software do sistema pode precisar ser modificado antes de serem aprovadas as mudanças nos requisitos. Sugira um modelo de um processo para fazer essas modificações de modo a garantir que o documento de requisitos e implementação do sistema não se tornem inconsistentes.
 ![[ex_4.9_sommerville.canvas|ex_4.9_sommerville]]
 ## Cap - 5
 ### 7.1 Usando a notação estruturada do Quadro 7.1, especifique casos de uso da estação meteorológica para relatar status e reconfigurar. Você deve fazer suposições razoáveis sobre a funcionalidade necessária. 
