@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"b66cd99fbb31951a","x":-420,"y":-120,"width":165,"height":90,"type":"text","text":"Problema identificado"},
+		{"id":"ba66a7d65fbfc5e9","x":-120,"y":-105,"width":250,"height":60,"type":"text","text":"Resolver o problema "},
+		{"id":"45059d6e95b74559","x":260,"y":-113,"width":253,"height":76,"type":"text","text":"Reunião para reavaliar os requisitos"},
+		{"id":"65fa79e8b832623d","x":640,"y":-113,"width":280,"height":75,"type":"text","text":"Aplicar mudanças necessárias  "}
+	],
+	"edges":[
+		{"id":"2a19a4caaddd030d","fromNode":"b66cd99fbb31951a","fromSide":"right","toNode":"ba66a7d65fbfc5e9","toSide":"left"},
+		{"id":"c5020df8502ed752","fromNode":"ba66a7d65fbfc5e9","fromSide":"right","toNode":"45059d6e95b74559","toSide":"left"},
+		{"id":"b632055a5bcc1649","fromNode":"45059d6e95b74559","fromSide":"right","toNode":"65fa79e8b832623d","toSide":"left"}
+	]
+}

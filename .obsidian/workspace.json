@@ -25,10 +25,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4. Main notes/Software engineering Ian Sommerville 9th edition.md",
+                "file": "4. Main notes/Ian Sommerville Exercicios.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "098fa7f5df5948c5",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -98,8 +106,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4. Main notes/Software engineering Ian Sommerville 9th edition.md",
-                "collapseAll": true,
+                "file": "4. Main notes/Ian Sommerville Exercicios.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -115,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4. Main notes/Software engineering Ian Sommerville 9th edition.md",
+                "file": "4. Main notes/Ian Sommerville Exercicios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4. Main notes/Software engineering Ian Sommerville 9th edition.md"
+                "file": "4. Main notes/Ian Sommerville Exercicios.md"
               }
             }
           }
@@ -161,6 +169,11 @@
   "active": "5c33a2dc977452da",
   "lastOpenFiles": [
     "4. Main notes/Software engineering Ian Sommerville 9th edition.md",
+    "5. Assets/ex_7.8_sommerville.png",
+    "5. Assets/ex_7.7_sommerville.png",
+    "4. Main notes/Ian Sommerville Exercicios.md",
+    "5. Assets/ex_7.5_sommerville 1.canvas",
+    "5. Assets/ex_4.9_sommerville.canvas",
     "5. Assets/tabela_doc_requisitos.png",
     "5. Assets",
     "3. Templates/software engineering.md",
@@ -177,7 +190,6 @@
     "4. Main notes/programming/linked list.md",
     "3. Templates/Index template.md",
     "4. Main notes/programming",
-    "Untitled.canvas",
     "2. Indexes/programming.md",
     "4. Main notes/2024-05-15.md",
     "4. Main notes/stacks and queue.md",
