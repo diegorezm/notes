@@ -9,8 +9,59 @@ index: "[[software engineering]]"
 ---
 
 # Ian Sommerville Exercicios
-## Cap - 2
-## Cap - 3
+## Cap - 2 & 3
+
+### 3.1 Explique por que, para as empresas, a entrega rápida e implantação de novos sistemas frequentemente é mais importante do que a funcionalidade detalhada desses sistemas.
+Quando se trata de um sistema de pequeno/médio porte, acaba se perdendo muito tempo analisando seus requisitos e pouco tempo realmente produzindo algo. 
+
+### 3.2 Explique como os princípios básicos dos métodos ágeis levam ao desenvolvimento e implantação de software acelerados.
+1. **Pessoas e não processos**
+	- As habilidades da equipe de software tem que ser exploradas e devem criar suas próprias maneiras de trabalhar, sem processos prescritivos.
+2. **Envolvimento do cliente**
+	- Ao invés de criar contratos durante longas negociações com o cliente, no desenvolvimento ágil os clientes participam diretamente do desenvolvimento do software. Assim podem dizer o que querem e o que não querem diretamente para o time de desenvolvimento.
+3. **Aceitar as mudanças**
+	- No desenvolvimento ágil o software vai sempre estar em constante mudança, ao invés de estar seguindo um contrato estrito. 
+4. **Software ao invés de  documentação** 
+	  - No desenvolvimento ágil é muito comum que a documentação seja deixada de lado, já que custa tempo dos desenvolvedores e por muitas vezes não é nem utilizada. 
+### 3.3 Quando você não recomendaria o uso de um método ágil para o desenvolvimento de um sistema de software?
+Quando se trata de times que estão geograficamente dispersas, já que fica mais difícil de coordenar os times desta maneira. 
+Além disto métodos ágeis devem ser evitados para programas críticos, já que não seguem um plano e abrem margem para erros. Porem alguns princípios podem sim ser seguidos, como por exemplo o desenvolvimento test-first
+
+### 3.4 Extreme Programming expressa os requisitos dos usuários como histórias, com cada história escrita em um cartão. Discuta as vantagens e desvantagens dessa abordagem para a descrição de requisitos.
+1. **Vantagens**
+	 - Eles representam situações reais, então o sistema irá dar suporte para as ações mais frequentes dos usuários. 
+	 - É fácil para os usuários entenderem as historias. 
+2. **Desvantagens**
+	  - Podem ser incompletos, e por conta de sua natureza informal pode ser difícil detectar isto.
+	  - Focam somente em requisitos funcionais
+	  - A relação 
+
+### 3.5 Explique por que o desenvolvimento test-first ajuda o programador a desenvolver um melhor entendimento dos requisitos do sistema. Quais são as potenciais dificuldades com o desenvolvimento test-first?
+Como os testes são escritos antes da implementação, eles podem ser utilizando enquanto o software esta sendo desenvolvido e isto ajuda a mante-lo fiel aos requisitos. A principal dificuldade é conseguir com que os clientes trabalhem com a equipe pela maior quantidade de tempo possível. 
+
+### 3.6 Sugira quatro razões pelas quais a taxa de produtividade de programadores que trabalham em pares pode ser mais que a metade da taxa de produtividade de dois programadores que trabalham individualmente.
+1. Encoraja a refatoração do código já que ele tem que estar legível para a outra pessoa. 
+2. Leva a fazer reviews mais frequentes do código, assim achando bugs mais facilmente.
+3. Geralmente faz com que o foco seja totalmente no desenvolvimento das funcionalidades essenciais para o programa, e não em otimizações que não beneficiam a equipe. 
+
+### 3.7 Compare e contraste a abordagem Scrum para o gerenciamento de projetos com abordagens convencionais dirigida a planos, como discutido no Capítulo 23. As comparações devem ser baseadas na eficácia de cada abordagem para o planejamento da alocação das pessoas nos projetos, estimativa de custos de projetos, manutenção da coesão da equipe e gerenciamento de mudanças no quadro da equipe do projeto.
+
+### 3.8 Você é um gerente de software em uma empresa que desenvolve softwares críticos de controles para aeronaves. Você é responsável pelo desenvolvimento de um sistema de apoio ao projeto de software que dá suporte para a tradução de requisitos de software em uma especificação formal de software (discutido no Capítulo 13). Comente sobre as vantagens e desvantagens das estratégias de desenvolvimento a seguir:
+a) Coletar dos engenheiros de software e stakeholders externos (como a autoridade regulatória de certifica-
+ção) os requisitos para um sistema desse tipo e desenvolver o sistema usando uma abordagem dirigida a
+planos.
+b) Desenvolver um protótipo usando uma linguagem de script, como Ruby ou Python, avaliar esse protóti-
+po com os engenheiros de software e outros stakeholders e, em seguida, revisar os requisitos do sistema.
+Desenvolver novamente o sistema final, usando Java.
+c) Desenvolver o sistema em Java, usando uma abordagem ágil com um usuário envolvido na equipe de
+desenvolvimento.
+
+### 3.9 Tem-se sugerido que um dos problemas de se ter um usuário participando de uma equipe de desenvolvimento de software é que eles ‘se tornam nativos’, ou seja, adotam a perspectiva da equipe de desenvolvimento e perdem de vista as necessidades de seus colegas usuários. Sugira três maneiras de evitar esse problema e discuta as vantagens e desvantagens de cada abordagem.
+1. Envolver múltiplos usuários no desenvolvimento. Isto pode ser bom pois a equipe de desenvolvimento teria diversos pontos de vista para analisar, a desvantagem é que podem haver conflitos entre os usuários. 
+2. Estar constantemente mudando os usuários também pode ser uma boa abordagem, também provendo para  a equipe múltiplas perspectivas. Porem pode haver conflito entre usuários. 
+3. Validar as sugestões também pode ser uma boa estrategia, porem desacelera o processo. 
+### 3.10 Para reduzir os custos e o impacto ambiental das viagens, sua empresa decide fechar uma série de escritórios e dar suporte ao pessoal para trabalhar em casa. No entanto, a gerência sênior que introduz essa política não está ciente de que o software é desenvolvido por métodos ágeis, que contam com equipe trabalhando no mesmo local, e a programação em pares. Discuta as dificuldades que essa nova política pode causar e como você poderia contornar esses problemas.
+
 ## Cap - 4
 ### 4.1  Identifique e descreva brevemente os quatro tipos de requisitos que podem ser definidos para um sistema computacional.
 - **Requisitos funcionais**: Declaração dos serviços que o sistema deve ter e como o sistema deve reagir em determinadas situações.

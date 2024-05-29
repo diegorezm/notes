@@ -30,14 +30,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "098fa7f5df5948c5",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
         ],
         "currentTab": 1
@@ -168,10 +160,11 @@
   },
   "active": "5c33a2dc977452da",
   "lastOpenFiles": [
+    "4. Main notes/programming/recursive.md",
+    "4. Main notes/Ian Sommerville Exercicios.md",
     "4. Main notes/Software engineering Ian Sommerville 9th edition.md",
     "5. Assets/ex_7.8_sommerville.png",
     "5. Assets/ex_7.7_sommerville.png",
-    "4. Main notes/Ian Sommerville Exercicios.md",
     "5. Assets/ex_7.5_sommerville 1.canvas",
     "5. Assets/ex_4.9_sommerville.canvas",
     "5. Assets/tabela_doc_requisitos.png",
@@ -179,7 +172,6 @@
     "3. Templates/software engineering.md",
     "4. Main notes/programming/What is an algorithm?.md",
     "4. Main notes/programming/stack and queue.md",
-    "4. Main notes/programming/recursive.md",
     "4. Main notes/programming/lists.md",
     "2. Indexes/data structures.md",
     "2. Indexes/algorithm.md",
