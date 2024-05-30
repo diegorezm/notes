@@ -1,0 +1,17 @@
+## 3 - 6 
+- Um sistema operacional é um conjunto de rotinas executados pelo computador, sua principal função é controlar seu funcionamento. Sem um sistema operacional era necessário ter conhecimento de hardware para conseguir usar um computador. Um sistema operacional não é executado de forma linear, ele é composto por diversos eventos assíncronos (podem acontecer a qualquer momento).
+- Um computador pode ser entendido como uma maquina de camadas,ou maquina de níveis, em que existem duas camadas: 
+	- 0: hardware
+	- 1: sistema operacional
+- Esta visão é chamada de _maquina virtual_
+- Na realidade um computador tem quantas camadas forem necessárias
+- Se você está em uma camada, não tem necessidade de saber da existência de uma camada acima/abaixo.
+## 15 - 19
+- A evolução dos sistemas operacionais está diretamente  ligada a  evolução do hardware
+- No inicio era necessário esperar o termino de um programa para se iniciar outro. Um **sistema mono tarefa**.  Um sistema simples que não se preocupa com problemas como compartilhamento de recursos e sistemas de E/S.
+- **Sistemas multitarefa** permitem com que múltiplos programas e usuários tenham acesso a os recursos do computador ao mesmo tempo, assim deixando a cargo do sistema operacional gerenciar os recursos da CPU, memoria e etc. Estes sistemas geralmente possibilitam a redução  total do tempo de execução das aplicações além de uma redução de custos por conta do compartilhamento de recursos para as diferentes funções. 
+- Um sistema multitarefa pode ser classificado em **monousuário** e **multiusuário**. Um sistema monousuário geralmente são  encontrados em computadores pessoais e estações de trabalho, onde apenas um usuário interage com o sistema por vez. Um sistema multiusuário são ambientes colaborativos onde múltiplos usuários podem se conectar ao mesmo tempo. 
+- **Sistemas batch** foram os primeiros sistemas multitarefa. No começo os programas, ou jobs, eram executados através de cartões perfurados e armazenados em disco ou fita, onde aguardavam para ser processados. Uma vez que a disponibilidade de espaço da memoria principal aumentou, os jobs eram executados produzindo uma saída em disco ou fita.
+- **Sistemas de tempo compartilhado** permitem com que diversos programas sejam executados aos mesmo tempo através da divisão do tempo da CPU nos chamados _time slice_, caso a fatia de tempo não seja o suficiente o programa é interrompido e o sistema operacional escolhe o próximo programa para ser executado e o programa original espera por uma fatia de tempo maior. A maior parte das aplicações comerciais de hoje em  dia são processadas neste   tipo de sistema, pois geralmente **oferece um custo mais baixo e um tempo de resposta razoável.** 
+- **Sistemas de tempo real** se parece com o sistema de tempo compartilhado, porém este é um sistema com limites mais rígidos. Caso os limites não sejam obedecidos poderão haver problemas irreparáveis. Ao contrario do tempo compartilhado este tipo de sistema deixa o programa utilizar quanto tempo da CPU for necessário ou até que um programa prioritário apareça. Este tipo de sistema geralmente é utilizado em refinarias de petróleo, usinas nucleares e  termoelétricas e etc, onde o **tempo de processamento é fator fundamental**. 
+## 50 - 57
