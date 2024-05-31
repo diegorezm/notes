@@ -1,4 +1,4 @@
-## 3 - 6 
+## pg 3 - 6 
 - Um sistema operacional é um conjunto de rotinas executados pelo computador, sua principal função é controlar seu funcionamento. Sem um sistema operacional era necessário ter conhecimento de hardware para conseguir usar um computador. Um sistema operacional não é executado de forma linear, ele é composto por diversos eventos assíncronos (podem acontecer a qualquer momento).
 - Um computador pode ser entendido como uma maquina de camadas,ou maquina de níveis, em que existem duas camadas: 
 	- 0: hardware
@@ -6,7 +6,7 @@
 - Esta visão é chamada de _maquina virtual_
 - Na realidade um computador tem quantas camadas forem necessárias
 - Se você está em uma camada, não tem necessidade de saber da existência de uma camada acima/abaixo.
-## 15 - 19
+## pg 15 - 19
 - A evolução dos sistemas operacionais está diretamente  ligada a  evolução do hardware
 - No inicio era necessário esperar o termino de um programa para se iniciar outro. Um **sistema mono tarefa**.  Um sistema simples que não se preocupa com problemas como compartilhamento de recursos e sistemas de E/S.
 - **Sistemas multitarefa** permitem com que múltiplos programas e usuários tenham acesso a os recursos do computador ao mesmo tempo, assim deixando a cargo do sistema operacional gerenciar os recursos da CPU, memoria e etc. Estes sistemas geralmente possibilitam a redução  total do tempo de execução das aplicações além de uma redução de custos por conta do compartilhamento de recursos para as diferentes funções. 
@@ -14,4 +14,15 @@
 - **Sistemas batch** foram os primeiros sistemas multitarefa. No começo os programas, ou jobs, eram executados através de cartões perfurados e armazenados em disco ou fita, onde aguardavam para ser processados. Uma vez que a disponibilidade de espaço da memoria principal aumentou, os jobs eram executados produzindo uma saída em disco ou fita.
 - **Sistemas de tempo compartilhado** permitem com que diversos programas sejam executados aos mesmo tempo através da divisão do tempo da CPU nos chamados _time slice_, caso a fatia de tempo não seja o suficiente o programa é interrompido e o sistema operacional escolhe o próximo programa para ser executado e o programa original espera por uma fatia de tempo maior. A maior parte das aplicações comerciais de hoje em  dia são processadas neste   tipo de sistema, pois geralmente **oferece um custo mais baixo e um tempo de resposta razoável.** 
 - **Sistemas de tempo real** se parece com o sistema de tempo compartilhado, porém este é um sistema com limites mais rígidos. Caso os limites não sejam obedecidos poderão haver problemas irreparáveis. Ao contrario do tempo compartilhado este tipo de sistema deixa o programa utilizar quanto tempo da CPU for necessário ou até que um programa prioritário apareça. Este tipo de sistema geralmente é utilizado em refinarias de petróleo, usinas nucleares e  termoelétricas e etc, onde o **tempo de processamento é fator fundamental**. 
-## 50 - 57
+## pg 50 - 57
+-  kernel é um conjunto de rotinas que oferece serviços para os usuários e suas aplicações. 
+- O usuário pode interagir com o kernel através de utilitários e/ou rotinas do sistema.
+- As rotinas do kernel não seguem uma ordem cronológica, são assíncronas. 
+- O  sistema operacional deve implementar mecanismos de proteção que controlem o acesso concorrente aos diversos recursos do sistema
+- É preciso adicionais maneiras de fazer o kernel mais seguro e controlar o acesso aos seus serviços. Para isso é utilizado o chamado _modo de acesso_, presente no hardware dos processadores. 
+- Processadores possuem dois modos de acesso: _modo usuário_ e _modo kernel_. Isto serve para prevenir que usuários comuns tenham acesso a rotinas consideradas "privilegiadas". O modo de acesso é determinado por um numero de bits localizado no registrador do processador. 
+- Existem funções que só devem ser executadas pelo sistema operacional, ou com sua supervisão. Como por exemplo o uso do disco. 
+- Todo  controle de execução de rotinas é realizado através de um mecanismo conhecido como _system call_, toda vez que uma aplicação faz  um system call o software verificada se quem o chamou tem autorização para realizar  aquela rotina. Caso seja autorizado, primeiro é criado uma copia dos conteúdos no registrador e então é alterado de modo usuário para modo kernel, a operação é realizada e então o registrador é restaurado para seu estado anterior. 
+- Uma aplicação não pode acessar diretamente as rotinas privilegiadas, apenas com a supervisão do sistema operacional. 
+- **Linguagem de comandos** permite com que o usuário se comunique de uma maneira mais simples com o sistema operacional. Funções como criar arquivos, ler diretórios, verificar a data e etc. Dessa forma o usuário consegue se comunicar diretamente com o sistema operacional. Estes comandos são interpretados pelo _shell_,a sintaxe do comando é verificada e então as chamadas para as rotinas são feitas.
+- Quando um computador é ligado o sistema operacional não é carregado imediatamente, isso ocorre durante o processo de boot. Primeiramente ocorre a execução de um programa chamado _boot loader_, que se encontra na ROM, este programa chama outro programa chamado POST, que verifica a integridade do hardware. Com esta checagem feita então o boot loader procura algum sistema operacional que esteja em disco, caso nenhum seja encontrado então uma mensagem de erro é exibida e o processo interrompido. Caso um sistema seja encontrado, um conjunto de instruções é carregado para memória e localizado em um bloco conhecido como _setor de boot_. Depois da execução deste código o sistema operacional pode finalmente ser carregado para a memória.  
