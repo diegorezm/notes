@@ -45,6 +45,18 @@ Como os testes são escritos antes da implementação, eles podem ser utilizando
 3. Geralmente faz com que o foco seja totalmente no desenvolvimento das funcionalidades essenciais para o programa, e não em otimizações que não beneficiam a equipe. 
 
 ### 3.7 Compare e contraste a abordagem Scrum para o gerenciamento de projetos com abordagens convencionais dirigida a planos, como discutido no Capítulo 23. As comparações devem ser baseadas na eficácia de cada abordagem para o planejamento da alocação das pessoas nos projetos, estimativa de custos de projetos, manutenção da coesão da equipe e gerenciamento de mudanças no quadro da equipe do projeto.
+#### Planejamento da Alocação das Pessoas nos Projetos
+No Scrum, as pessoas são alocadas a sprints curtos (geralmente de duas a quatro semanas). A alocação é revisada a cada sprint, permitindo ajustes rápidos com base na carga de trabalho e nas necessidades do projeto.
+As abordagens tradicionais geralmente envolvem um planejamento inicial detalhado, com a alocação de pessoas definida para a duração completa do projeto. Mudanças são menos frequentes e requerem processos formais de replanejamento.
+#### Estimativa de Custos de Projetos
+O Scrum usa estimativas incrementais e baseadas em histórias de usuário para cada sprint. Isso permite revisões e ajustes contínuos, proporcionando uma visão mais precisa e atualizada dos custos ao longo do projeto.
+As abordagens tradicionais fazem estimativas detalhadas do custo do projeto logo no inicio, é menos adaptável a mudança. 
+#### Manutenção da Coesão da Equipe
+As reuniões diárias (Daily Scrum) e as revisões de sprint promovem a comunicação constante e a colaboração dentro da equipe, fortalecendo a coesão.As equipes Scrum são autônomas e empoderadas para tomar decisões, o que aumenta a motivação e o engajamento dos membros.
+Nas abordagens mais tradicionais a coesão da equipe depende da eficácia da comunicação entre diferentes níveis hierárquicos. A colaboração pode ser menos intensa devido à separação clara de funções e responsabilidades. Além disto a comunicação tende a ser mais formal.
+#### Gerenciamento de Mudanças no Quadro da Equipe do Projeto
+Mudanças na equipe podem ser rapidamente acomodadas devido à natureza iterativa e ágil do Scrum. Novos membros podem ser integrados a cada sprint, e a equipe pode reconfigurar suas responsabilidades conforme necessário.As retrospectivas após cada sprint ajudam a resolver problemas.
+Nos métodos mais tradicionais as mudanças requerem planejamento e realocação de recursos.Qualquer mudança significativa no quadro da equipe pode exigir aprovação formal e reestruturação do plano do projeto, o que pode afetar a agilidade na resposta a novas condições.
 
 ### 3.8 Você é um gerente de software em uma empresa que desenvolve softwares críticos de controles para aeronaves. Você é responsável pelo desenvolvimento de um sistema de apoio ao projeto de software que dá suporte para a tradução de requisitos de software em uma especificação formal de software (discutido no Capítulo 13). Comente sobre as vantagens e desvantagens das estratégias de desenvolvimento a seguir:
 a) Coletar dos engenheiros de software e stakeholders externos (como a autoridade regulatória de certifica-
@@ -61,6 +73,7 @@ desenvolvimento.
 2. Estar constantemente mudando os usuários também pode ser uma boa abordagem, também provendo para  a equipe múltiplas perspectivas. Porem pode haver conflito entre usuários. 
 3. Validar as sugestões também pode ser uma boa estrategia, porem desacelera o processo. 
 ### 3.10 Para reduzir os custos e o impacto ambiental das viagens, sua empresa decide fechar uma série de escritórios e dar suporte ao pessoal para trabalhar em casa. No entanto, a gerência sênior que introduz essa política não está ciente de que o software é desenvolvido por métodos ágeis, que contam com equipe trabalhando no mesmo local, e a programação em pares. Discuta as dificuldades que essa nova política pode causar e como você poderia contornar esses problemas.
+A comunicação direta e informal é um ponto-chave para as metodologias ágeis, e a falta dessa comunicação pode comprometer a entrega do projeto. Além disso, é necessário que os programadores estejam sempre se comunicando entre si e saibam o que seus colegas estão fazendo. Para resolver esses problemas, ferramentas como Zoom ou Microsoft Teams podem ser utilizadas para manter a comunicação em tempo real. Ferramentas como Visual Studio Code Live Share facilitam o desenvolvimento cooperativo, enquanto ferramentas como Git são essenciais para o controle de versão do projeto, permitindo um desenvolvimento de software eficiente em equipe. 
 
 ## Cap - 4
 ### 4.1  Identifique e descreva brevemente os quatro tipos de requisitos que podem ser definidos para um sistema computacional.
