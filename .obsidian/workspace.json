@@ -4,47 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "2cbc8ddbb4f19397",
+        "id": "768c99ce85fe3335",
         "type": "tabs",
         "children": [
           {
-            "id": "004db580984b7e60",
+            "id": "b05f5798808575a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4. Main notes/programming/recursive.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c33a2dc977452da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4. Main notes/programming/Laravel.md",
+                "file": "4. Main notes/Software engineering Ian Sommerville 9th edition.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "b1fb8e4c1fa21092",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4. Main notes/programming/Laravel.md",
-                "mode": "preview",
-                "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Software engineering Ian Sommerville 9th edition"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -64,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -73,13 +52,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:incomplete",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -87,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -110,15 +93,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4. Main notes/programming/Laravel.md",
+                "file": "4. Main notes/Software engineering Ian Sommerville 9th edition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Software engineering Ian Sommerville 9th edition"
             }
           },
           {
@@ -127,10 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4. Main notes/programming/Laravel.md",
+                "file": "4. Main notes/Software engineering Ian Sommerville 9th edition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Software engineering Ian Sommerville 9th edition"
             }
           },
           {
@@ -141,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -150,8 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4. Main notes/programming/Laravel.md"
-              }
+                "file": "4. Main notes/Software engineering Ian Sommerville 9th edition.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Software engineering Ian Sommerville 9th edition"
             }
           }
         ]
@@ -162,31 +153,40 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir a troca rápida": false,
-      "graph:Abrir visualização em gráfico": false,
-      "canvas:Criar novo canvas": false,
-      "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b1fb8e4c1fa21092",
+  "active": "b05f5798808575a9",
   "lastOpenFiles": [
+    "1. Raw notes/Arquitetura de Sistemas operacionais - raw.md",
+    "4. Main notes/Software engineering Ian Sommerville 9th edition.md",
+    "4. Main notes/Untitled.md",
+    "4. Main notes/programming/Laravel.md",
+    "4. Main notes/programming/Exercícios arvore binaria.md",
+    "5. Assets/ex_6.png",
+    "5. Assets/ex_2_btree.png",
+    "5. Assets/diego_btree.png",
+    "4. Main notes/programming/Binary tree.md",
+    "main notes/programming/btree.md",
+    "5. Assets/ex_7.7_sommerville.png",
+    "main notes/programming",
+    "main notes",
+    "4. Main notes/Untitled 1.md",
     "4. Main notes/programming/recursive.md",
     "4. Main notes/programming/What is an algorithm?.md",
-    "4. Main notes/Software engineering Ian Sommerville 9th edition.md",
     "README.md",
     "2. Indexes/webdev.md",
-    "4. Main notes/programming/Laravel.md",
     "4. Main notes/Sem título.md",
     "4. Main notes/programming/lists.md",
     "4. Main notes/Arquitetura de Sistemas operacionais.md",
     "4. Main notes/Ian Sommerville Exercicios.md",
-    "1. Raw notes/Arquitetura de Sistemas operacionais - raw.md",
     "4. Main notes/programming/Sem título.md",
-    "4. Main notes/Untitled 1.md",
     "5. Assets/ex_7.8_sommerville.png",
-    "5. Assets/ex_7.7_sommerville.png",
     "5. Assets/ex_7.5_sommerville 1.canvas",
     "5. Assets/ex_4.9_sommerville.canvas",
     "5. Assets/tabela_doc_requisitos.png",
@@ -199,13 +199,8 @@
     "3. Templates/Full note.md",
     "4. Main notes/teste _te.md",
     "4. Main notes/programming/linked list.md",
-    "3. Templates/Index template.md",
     "4. Main notes/programming",
-    "2. Indexes/programming.md",
-    "4. Main notes/2024-05-15.md",
-    "4. Main notes/stacks and queue.md",
     "4. Main notes",
-    "2. Programming/Java.md",
     "3. Templates",
     "2. Indexes",
     "2. Programming",
